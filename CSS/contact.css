@@ -1,15 +1,40 @@
+table {
+  float:right;
+}
+
+.contact tr {
+  height: 7rem
+}
+
+.contact.text_area {
+  width: 480px;
+}
+
 .contact th {
-  height: 7rem;
-  float: right;
+  text-align: right;
 }
 
-.contact td {
-  padding-left: 10px;
+textarea {
+  width: 480px;
 }
 
-.contact-submit {
+input type="text" {
+  width: 480px;
+}
+
+.contact_submit {
   font-size: 3rem;
   background-color: #008B8B;
   color: #fff;
   padding: 10px;
+  border: none;
+  outline: none;
+}
+
+p {
+  text-align : center;
+}
+
+.contact_submit:hover {
+  opacity: 0.5;
 }
