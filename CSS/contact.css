@@ -1,0 +1,15 @@
+.contact th {
+  height: 7rem;
+  float: right;
+}
+
+.contact td {
+  padding-left: 10px;
+}
+
+.contact-submit {
+  font-size: 3rem;
+  background-color: #008B8B;
+  color: #fff;
+  padding: 10px;
+}
