@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset="UTF-8">
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/contact.css">
@@ -32,22 +32,17 @@
             <li class="contact_point"><a href="contact.html">お問い合わせ</a></li>
           </ul>
         </nav>
-        <p class="banner">
-          <a href="#">
-            <img src="./images/banner.png">
-          </a>
-        </p>
       </aside>
       <article class="content">
         <form>
           <table class="contact">
             <tr>
               <th>お名前</th>
-              <td><input type="text" class="name" class="text_area"></td>
+              <td><input type="text" name="name" class="text_area"></td>
             </tr>
             <tr>
               <th>メールアドレス</th>
-              <td><input type="text" class="mail" class="text_area"></td>
+              <td><input type="text" name="email" class="text_area"></td>
             </tr>
             <tr>
               <th>性別</th>
@@ -57,10 +52,10 @@
             </tr>
             <tr>
               <th>お問い合わせ内容</th>
-              <td><textarea class=></textarea></td>
+              <td><textarea></textarea></td>
             </tr>
             </table>
-            <p><input type="submit" value="送 信" class="contact_submit">
+            <p><input type="submit" value="送 信" class="submit">
             </p>
           </form>
         </article>

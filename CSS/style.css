@@ -4,6 +4,7 @@ html {
 }
 body {
   height: 100%;
+  margin: 0 auto;
 }
 .container {
   width: 980px;
@@ -68,7 +69,7 @@ ul.top_menu {
   opacity: 0.6;
 }
 .side_menu li a{
-  font-size:2rem;
+  font-size: 2rem;
   color: #fff;
   text-decoration: none;
   display: block;

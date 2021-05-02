@@ -6,23 +6,28 @@ table {
   height: 7rem
 }
 
+.contact td {
+  padding-left: 10px;
+}
+
 .contact.text_area {
   width: 480px;
 }
 
 .contact th {
   text-align: right;
+  width: 150px;
 }
 
 textarea {
   width: 480px;
 }
 
-input type="text" {
+input.text_area {
   width: 480px;
 }
 
-.contact_submit {
+.submit {
   font-size: 3rem;
   background-color: #008B8B;
   color: #fff;
@@ -35,6 +40,6 @@ p {
   text-align : center;
 }
 
-.contact_submit:hover {
+.submit:hover {
   opacity: 0.5;
 }
