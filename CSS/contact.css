@@ -31,7 +31,7 @@ input.text_area {
   font-size: 3rem;
   background-color: #008B8B;
   color: #fff;
-  padding: 10px;
+  margin: 10px;
   border: none;
   outline: none;
 }
